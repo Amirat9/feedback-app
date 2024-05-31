@@ -1,6 +1,6 @@
 const Card = ({ children }) => {
   return (
-    <div className='bg-white rounded-3xl flex items-center justify-center'>
+    <div className='relative bg-white rounded-3xl flex flex-col items-center justify-center'>
       {children}
     </div>
   );
