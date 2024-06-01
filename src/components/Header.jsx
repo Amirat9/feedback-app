@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const Header = ({ text }) => {
+const Header = ({ text = 'Feedback UI' }) => {
   return (
     <header className='h-[70px] mb-8 flex justify-center items-center bg-black/[0.4]'>
       <div className='container'>
@@ -10,10 +10,6 @@ const Header = ({ text }) => {
       </div>
     </header>
   );
-};
-
-Header.defaultProps = {
-  text: 'Feedback UI',
 };
 
 Header.propTypes = {
